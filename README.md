@@ -21,11 +21,11 @@ docker build -t <image-name> .
 > logs detatached
 
 ```
-docker run -dp 127.0.0.1:8888:8888 -v $(pwd)/notebook:cpp/notebooks --name <container-name> <image-name>
+docker run -dp 127.0.0.1:8888:8888 -v $(pwd)/notebooks:/cpp/notebooks --name <container-name> <image-name>
 ```
 
-> logs presence 
+> logs presence
 
 ```
-docker run -p 127.0.0.1:8888:8888 -v $(pwd)/notebook:cpp/notebooks --name <container-name> <image-name>
+docker run -p 127.0.0.1:8888:8888 -v $(pwd)/notebooks:/cpp/notebooks --name <container-name> <image-name>
 ```
