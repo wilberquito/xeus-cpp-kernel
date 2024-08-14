@@ -21,7 +21,7 @@ ENV PATH=/opt/miniconda3/bin:$PATH
 RUN /opt/miniconda3/bin/conda create -n cpp python=3.11 -y && \
     bash -c "source /opt/miniconda3/bin/activate cpp && \
     conda install xeus-cling -c conda-forge -y && \
-    pip install notebook==7.2.1" 
+    pip install notebook==7.2.1"
 
 
 # Set the working directory
