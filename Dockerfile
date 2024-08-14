@@ -23,7 +23,6 @@ RUN /opt/miniconda3/bin/conda create -n cpp python=3.11 -y && \
     conda install xeus-cling -c conda-forge -y && \
     pip install notebook==7.2.1"
 
-
 # Set the working directory
 WORKDIR /cpp
 
