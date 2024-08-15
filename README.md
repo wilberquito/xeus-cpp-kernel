@@ -1,4 +1,4 @@
-# Xeus Cling Jupyter Kernel for using on Notebooks
+# Harnessing the Power of C++ in Jupyter Notebooks with Xeus Cling
 
 In this README you will find the instructions
 to build the images and create a running container.
