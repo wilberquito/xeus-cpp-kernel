@@ -20,13 +20,13 @@ docker build -t <image-name> .
 
 ### Run image
 
-> logs detatached
+_**hide logs (detached container's shell)**_
 
 ```
 docker run -dp 127.0.0.1:8888:8888 -v $(pwd)/notebooks:/cpp/notebooks --name <container-name> <image-name>
 ```
 
-> logs presence
+_**print logs (attached container's shell)**_
 
 ```
 docker run -p 127.0.0.1:8888:8888 -v $(pwd)/notebooks:/cpp/notebooks --name <container-name> <image-name>
