@@ -1,5 +1,7 @@
 # Harnessing the Power of C++ in Jupyter Notebooks with Xeus Cling
 
+![Preview](./preview-xeus-notebook.png)
+
 In this README you will find the instructions
 to build the images and create a running container.
 
